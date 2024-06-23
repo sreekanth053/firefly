@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.firefly-container{
+    padding: 10px;
+    max-width: 100vw;
+}
+#main-content.blur {
+    filter: blur(5px);
+}
+.container1{
+    background-image:url("https://res.cloudinary.com/dt0iyjopp/image/upload/v1719038769/firefly/Frame_6_rs277s.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.nav-items{
+    background-color: transparent;
+    padding: 10px;
+}
+.heading1{
+    color: #ffffff;
+    margin: 50px;
+}
+.sub-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.button-type{
+    background-color:#ffffff;
+    color: red;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    border: none;
+    margin-left: 50px;
+}
+.heading{
+    color: orange;
+
+}
+.description{
+    margin: 30px;
+    text-align: center;
+}
+.sub-heading{
+    margin: 30px;
+    text-align: center;
+}
+.container2{
+    padding: 30px;
+}
+.about-heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    height: 10px;
+}
+.about-description{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.container3{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    height: 10px;
+    width: 90vw;
+    margin: 20px;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.product{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.product-details{
+    display: flex;
+    justify-content: space-between;
+}
+.button-type-1{
+    background-color:red;
+    color:#ffffff ;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+.container4{
+    background-color:green;
+    width: 100%;
+    margin: 5px;
+}
+.footer{
+    padding: 2px;
+}
+.image1{
+    width: 100%;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* -----------------popup---------------*/
+
+.popup{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+    text-align: center;
+}
+.popup-parts{
+    display: flex;
+}
+.popup-part1{
+    margin: 0;
+    padding: 10px;
+}
+.part1{
+    display: flex;
+    justify-content: space-around;
+}
+.img1{
+    height: 100px;
+    width: 100px;
+}
+
+.popup-part2{
+    margin: 0;
+    padding: 20px;
+}
+
+.heading-part{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.close{
+    background-color: transparent;
+    border: none;
+}
+.mrp-heading{
+    padding: 10px;
+}
+.price{
+    padding: 10px;
+}
+.dotted-lines{
+    padding-left: 9px;
+    color: orange;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.product-description{
+    padding: 10px;
+}
+.product-description-details{
+    padding: 10px;
+}
+.product-content{
+    padding: 8px;
+}
+.product-contents{
+    padding: 20px;
+}
+.content{
+    list-style-type: circle;
+}
+.shipping-time{
+    padding: 10px;
+}
+.time{
+    padding: 10px;
+}
+.button-type1{
+    background-color:red;
+    color:#ffffff ;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    border: none;
+    margin: 10px;
+}
+
+
